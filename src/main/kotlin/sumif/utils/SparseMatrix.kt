@@ -30,7 +30,7 @@ class SparseMatrix<T>(
     private fun coordToIdx(coord: Pair<Int, Int>): Int = coord.first + getNumColumns() * coord.second
 
     private fun isOutsideBounds(coord: Pair<Int, Int>): Boolean =
-        coord.first > getNumRows() || coord.second > getNumColumns()
+        coord.first > getNumRows() - 1 || coord.second > getNumColumns() - 1
 
     /**
      * Sets the specified element to the specified value. If the element is outside the current bounds, the matrix is
