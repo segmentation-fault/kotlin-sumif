@@ -1,0 +1,1 @@
+Implementation of of the [SUMIF](https://support.microsoft.com/en-us/office/sumif-function-169b8c99-c05c-4483-a712-1697a653039b) Excel function in Kotlin for sparse matrices. Usages can be found in [Tests](src/test/kotlin/sumif/SumIfKtTest.kt) and in [Main](src/main/kotlin/Main.kt).
